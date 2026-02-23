@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- TODO: Customize what files are to be included in a full backup. Reference: https://g.co/android/fullbackup -->
+    <exclude domain="database" path="sqlcipher_db"/>
+    <exclude domain="sharedpref" path="master_key_prefs.xml"/>
+</full-backup-content>
