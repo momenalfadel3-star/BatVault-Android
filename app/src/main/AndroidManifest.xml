@@ -19,14 +19,19 @@
         android:theme="@style/Theme.BatVaultAndroid"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.login.LoginActivity"
             android:exported="true"
             android:theme="@style/Theme.BatVaultAndroid">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.BatVaultAndroid">
         </activity>
     </application>
 
